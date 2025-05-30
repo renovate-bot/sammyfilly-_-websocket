@@ -3906,6 +3906,13 @@
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
 
+"@mdx-js/react@*":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-3.1.0.tgz#c4522e335b3897b9a845db1dbdd2f966ae8fb0ed"
+  integrity sha512-QjHtSaoameoalGnKDT3FoIl4+9RwyTmo9ZJGBdLOks/YOiWHoRDI3PUwEzOE7kEmGcV3AFcp9K6dYu9rEuKLAQ==
+  dependencies:
+    "@types/mdx" "^2.0.0"
+
 "@mdx-js/react@^2.0.0", "@mdx-js/react@^2.1.5":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@mdx-js/react/-/react-2.3.0.tgz#4208bd6d70f0d0831def28ef28c26149b03180b3"
@@ -6465,12 +6472,12 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/mdx-js__react@^1.5.5":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@types/mdx-js__react/-/mdx-js__react-1.5.5.tgz#fa6daa1a28336d77b6cf071aacc7e497600de9ee"
-  integrity sha512-k8pnaP6JXVlQh18HgL5X6sYFNC/qZnzO7R2+HsmwrwUd+JnnsU0d9lyyT0RQrHg1anxDU36S98TI/fsGtmYqqg==
+"@types/mdx-js__react@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/mdx-js__react/-/mdx-js__react-2.0.0.tgz#beefa273209aedf04b6f37d4c41a295b0d33200a"
+  integrity sha512-CULRBwQwLTb2RrhERg43x4857LaAjWcA2oncJdW0zj9m6eZQbGcOxZTHMiOxYmNmSrbDJQwJ6JiokqzBLAenEA==
   dependencies:
-    "@types/react" "*"
+    "@mdx-js/react" "*"
 
 "@types/mdx@^2.0.0":
   version "2.0.7"
